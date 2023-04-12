@@ -1,0 +1,36 @@
+1.9.5 Apr 27, 2018
+Correct a int/off_t buffer overflow in getSize() (#468)
+Correct a possible write crash (#494)
+Correct encfsctl cat and add encfsctl --reverse cat (#483)
+Add -c & -u cmdline options (#474)
+Add --noattrcache & --nodatacache cmdline options (#500)
+Ignore .encfs6.xml file in reverse mode (#478)
+Do not count usage on root path (to avoid resetting the --idle option) (#471)
+Use stderr instead of stdout for error messages (#491)
+Add the ability to disable data encryption (absolutely discouraged) (#487)
+Add Cygwin support (#499)
+
+1.9.6
+
+Asked to maintain simple weak encryption with focus of improving documentation
+Local functional program for each encrypted filesystem
+1993 CFS Cryptographic Filesystem
+1996 TCFS Extended (Kernel) Filesystem
+2000 EFS Encrypting Filesystem
+2003 EncFS Encrypted Filesystem
+2006 eCryptFS Enterprise Cryptographic Filesystem
+
+1.9.7
+Local functional program for each operating system
+Ubuntu		Linux
+OS X		Mac
+Windows		Windows
+Chrome		Android
+
+1.9.8
+
+Detail explanation of each encrypted filesystem
+?LoopbackFS Lookback Filesystem
+cryptography handbook
+https://sites.google.com/a/arg0.net/www/encfs-presentation.pdf?attredirects=0
+encfs-presentation.pdf
